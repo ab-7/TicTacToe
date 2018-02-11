@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adrija.tic_tac_toe.HowToPlay">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="RULES AND INSTRUCTIONS"
+        android:textSize="23sp"
+        android:textColor="#4b2c20"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rules_title"
+        android:layout_margin="10dp"
+        />
+
+        <TextView
+            android:id="@+id/rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rules_title"
+            android:textColor="#4b2c20"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:text=" 1.Click on the PLAY button to enter the game screen.\n\n
+2.It is a two player game. The player who start the game is X and the other player is O.\n\n
+3.Play according to the instruction given by tapping a box when it's your turn.\n\n
+4.Whoever achieves to get three X or O in a line is declared the respective winner.\n\n
+5.Click on PLAY AGAIN to play again.\n\n
+6.Click on the options on the menu to see the SCOREBOARD, or begin a NEW GAME, or EXIT.\n\n"
+            />
+
+        <Button
+            android:id="@+id/play"
+            android:text="PLAY"
+            android:textSize="32sp"
+            android:textColor="#000000"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/rules"
+            android:background="#e64a19"
+            />
+
+</RelativeLayout>
